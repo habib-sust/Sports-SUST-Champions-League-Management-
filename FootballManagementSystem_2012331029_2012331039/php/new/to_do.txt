@@ -1,0 +1,14 @@
+//have to send hidden data through post in verify.php
+
+
+//handle the team_1,team_2 in verify.php
+
+if($hash!=$row[]){
+	mysqli_close($con);
+	?>
+       <script>alert('warning!!! trying to dump us ..haha');</script>
+        <?php
+}
+
+http://localhost/php/new/verify.php?match='2'&flag='flagged'&email='shazid1971@gmail.com'&hash='sdhbvvdksv'&team_1='Manchester%20City'&team_2='FC%20Barcelona'
+;

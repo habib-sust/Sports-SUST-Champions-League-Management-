@@ -1,0 +1,9 @@
+$result = mysqli_query(@@);
+$row[] = mysqli_fetch_row($result);
+$row[] = mysqli_fetch_array($result);
+While(){
+?>
+<td><?php echo row[0]?></
+td>
+}
+
